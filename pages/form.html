@@ -18,12 +18,12 @@
 <form method="post" action="https://fom.in.ua/echo">
 
     <label for="name">Name:
-        <input type="text" placeholder="type your name" id="name">
+        <input type="text" placeholder="type your name" id="name" minlength="2" required>
     </label>
     <br>
     <br>
     <label for="last_name">Last Name:
-        <input type="text" placeholder="type your last name" id="last_name">
+        <input type="text" placeholder="type your last name" id="last_name" minlength="2" required>
     </label>
     <br>
     <br>
@@ -34,6 +34,16 @@
     <br>
     <label for="date">Date of Birth
         <input type="date" id="date">
+    </label>
+    <br>
+    <br>
+    <label>Gender:
+        <label>Male
+            <input type="radio" name="gender" value="male">
+        </label>
+        <label>Female
+            <input type="radio" name="gender" value="female">
+        </label>
     </label>
     <br>
     <br>
