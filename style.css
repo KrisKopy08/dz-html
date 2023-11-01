@@ -1,0 +1,29 @@
+body {
+    background-color: bisque;
+}
+
+label {
+    color: saddlebrown
+}
+
+#bd {
+    color: darkslategray
+}
+
+.gender {
+    color: purple;
+}
+
+* {
+    font-size: large;
+    font-family: 'Roboto Light', sans-serif;
+}
+
+input {
+    border-radius: 1%;
+}
+
+form {
+    margin-left: 50px;
+    border: black 3px;
+}
