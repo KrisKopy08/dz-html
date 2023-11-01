@@ -6,6 +6,7 @@
 </head>
 <body>
 <header>
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <nav>
         <a href="../index.html">Main</a>
         <a href="../pages/contacts.html">Contacts</a>
@@ -16,7 +17,6 @@
 <h1>Form Page</h1>
 <br>
 <form method="post" action="https://fom.in.ua/echo">
-
     <label for="name">Name:
         <input type="text" placeholder="enter your name" id="name" minlength="2" required>
     </label>
@@ -32,16 +32,16 @@
     </label>
     <br>
     <br>
-    <label for="date">Date of Birth
+    <label for="date" id="bd">Date of Birth
         <input type="date" id="date">
     </label>
     <br>
     <br>
     <label>Gender:
-        <label>Male
+        <label class="gender">Male
             <input type="radio" name="gender" value="male">
         </label>
-        <label>Female
+        <label class="gender">Female
             <input type="radio" name="gender" value="female">
         </label>
     </label>
